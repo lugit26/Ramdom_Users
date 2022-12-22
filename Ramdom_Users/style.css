@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+main{
+    display: grid;
+    width: 100px;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    align-content: center;
+    
+}
+
+.image-container {
+    display: flex;
+    align-content: center;
+}
+
+.image-container img{
+    width: 100px;
+    align-content: center;
+}
+
+article{
+    padding: 20px;
+    align-content: center;
+   
+}
